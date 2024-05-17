@@ -1,16 +1,11 @@
-import React, { useState } from "react";
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
+import React from "react";
 import Navbar from 'react-bootstrap/Navbar';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 
 import {
-    Person,
-    Kanban,
-    Motherboard,
-    FileText,
+
 } from "react-bootstrap-icons";
 import "../css/NavbarComponent.css";
 
@@ -22,7 +17,8 @@ const NavbarComponent = () => {
                     <h1>icons</h1>
                 </Col>
                 <Col className="text-center">
-                    <Image src="../img/logo.png" rounded />
+                    <Image src="img/logo.png" rounded />
+                    {/* my-app/src/img/logo.png */}
                 </Col>
                 <Col className="text-center">
                     <h1>order now</h1>
