@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/HiTEA/static/css/main.7069d63e.css",
-    "main.js": "/HiTEA/static/js/main.66e53dd5.js",
+    "main.css": "/HiTEA/static/css/main.b6f40cf5.css",
+    "main.js": "/HiTEA/static/js/main.f09e9aae.js",
     "static/js/453.ed3810f9.chunk.js": "/HiTEA/static/js/453.ed3810f9.chunk.js",
+    "static/media/Menu_3.jpg": "/HiTEA/static/media/Menu_3.a0010343549ebf59971d.jpg",
+    "static/media/Menu_4.jpg": "/HiTEA/static/media/Menu_4.c6061ae9672e0aa25360.jpg",
+    "static/media/Menu_2.jpg": "/HiTEA/static/media/Menu_2.6dca7bf56b992bafcdbe.jpg",
+    "static/media/Menu_1.jpg": "/HiTEA/static/media/Menu_1.f8c8d5b54d0b0eea7901.jpg",
+    "static/media/logo.png": "/HiTEA/static/media/logo.c8d6456e96a21bb44725.png",
+    "static/media/banner.jpeg": "/HiTEA/static/media/banner.8a097c2409a6d60be377.jpeg",
     "static/media/logo.svg": "/HiTEA/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/HiTEA/index.html",
-    "main.7069d63e.css.map": "/HiTEA/static/css/main.7069d63e.css.map",
-    "main.66e53dd5.js.map": "/HiTEA/static/js/main.66e53dd5.js.map",
+    "main.b6f40cf5.css.map": "/HiTEA/static/css/main.b6f40cf5.css.map",
+    "main.f09e9aae.js.map": "/HiTEA/static/js/main.f09e9aae.js.map",
     "453.ed3810f9.chunk.js.map": "/HiTEA/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7069d63e.css",
-    "static/js/main.66e53dd5.js"
+    "static/css/main.b6f40cf5.css",
+    "static/js/main.f09e9aae.js"
   ]
 }
