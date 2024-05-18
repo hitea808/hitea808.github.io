@@ -1,0 +1,19 @@
+#banner-container {
+    margin-top: 180px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+    height: 350px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 200px;
+}
+
+#banner-container h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
