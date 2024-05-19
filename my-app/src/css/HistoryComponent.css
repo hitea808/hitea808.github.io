@@ -1,0 +1,10 @@
+#history-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#history-summary{
+    line-height: 1.8em;
+}
