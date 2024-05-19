@@ -4,12 +4,16 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    flex-direction: column;    
-    height: 350px;
+    flex-direction: column;
+    min-height: 500px;    
+    max-height: 500px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner.jpeg);
-    background-size: cover;
-    background-position: center;
     padding: 200px;
+
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #banner-container h1 {
