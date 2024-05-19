@@ -2,11 +2,11 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import "../css/HistoryComponent.css";
+import "../css/AboutComponent.css";
 
-const HistoryComponent = () => {
+const AboutComponent = () => {
     return (
-        <Container id="history-container">
+        <Container id="about-container">
             <h2 className="title">ABOUT</h2>
             <Row>
                 <Col>
@@ -26,4 +26,4 @@ const HistoryComponent = () => {
     )
 }
 
-export default HistoryComponent;
+export default AboutComponent;

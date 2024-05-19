@@ -8,4 +8,14 @@
 #menu-container .menu-img {
     width: 450px;
     margin: 0px 30px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+#menu-container .menu-img:hover {
+    filter: brightness(90%);
+}
+
+.menu-model-img {
+    width: 100%;
 }

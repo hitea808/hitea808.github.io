@@ -31,9 +31,9 @@ const NavbarComponent = () => {
                 <Row className="w-100 d-flex justify-content-center align-items-center">
                     <Nav className='justify-content-center w-100'>
                         <Nav.Link className='nav-link' href="#">HOME</Nav.Link>
-                        <Nav.Link className='nav-link' href="#">MENU</Nav.Link>
-                        <Nav.Link className='nav-link' href="#">LOCATION</Nav.Link>
-                        <Nav.Link className='nav-link' href="#">ABOUT</Nav.Link>
+                        <Nav.Link className='nav-link' href="#menu-container">MENU</Nav.Link>
+                        <Nav.Link className='nav-link' href="#location-container">LOCATION</Nav.Link>
+                        <Nav.Link className='nav-link' href="#about-container">ABOUT</Nav.Link>
                     </Nav>
                 </Row>
             </Col>

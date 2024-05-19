@@ -4,7 +4,7 @@ import NavbarComponent from './components/NavbarComponent';
 import BannerComponent from './components/BannerComponent';
 import MenuComponent from './components/MenuComponent';
 import LocationComponent from './components/LocationComponent';
-import HistoryComponent from './components/HistoryComponent';
+import AboutComponent from './components/AboutComponent';
 import FooterComponent from './components/FooterComponent';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -16,7 +16,7 @@ function App() {
         <BannerComponent />
         <MenuComponent />
         <LocationComponent />
-        <HistoryComponent />
+        <AboutComponent />
         <FooterComponent />
       </div>
     </>
