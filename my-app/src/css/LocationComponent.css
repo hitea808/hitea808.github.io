@@ -19,3 +19,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@media (max-width: 800px) { 
+    #location-section {
+        padding-left: 0px;
+    }
+}

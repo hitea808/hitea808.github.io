@@ -17,8 +17,8 @@ const MenuComponent = () => {
     const [showMenu4, setShowMenu4] = useState(false);
 
     return (
-        <Container id="menu-container">
-            <h2 className="title" id="menu">MENU</h2>
+        <Container id="menu">
+            <h2 className="title">MENU</h2>
             <br />
             <br />
             <div id="menu-section">

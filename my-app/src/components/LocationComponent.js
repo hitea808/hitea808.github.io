@@ -8,7 +8,7 @@ const LocationComponent = () => {
         <div id="location">
             {/* <h2 className="title">LOCATION</h2> */}
             <Row style={{ padding: '0px', margin: '0px' }}>
-                <Col>
+                <Col sm={6}>
                     <div id="location-section">
                         <br />
                         <br />
@@ -28,7 +28,7 @@ const LocationComponent = () => {
                         <br />
                     </div>
                 </Col>
-                <Col id="location-image-container">
+                <Col id="location-image-container" >
                     <div>
                         {/* <Image className="loc-img" src={locationIMG} alt="locationIMG" /> */}
                     </div>

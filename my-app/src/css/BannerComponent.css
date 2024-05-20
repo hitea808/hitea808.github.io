@@ -1,5 +1,4 @@
 #banner {
-    margin-top: 180px;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -20,4 +19,16 @@
     color: white;
     font-weight: bold;
     font-size: 60px;
+}
+
+@media (max-width: 800px) { 
+    #banner{
+        min-height: 400px;
+        max-height: 400px;
+        padding: 100px;
+    }
+    #banner h1{
+        width: 100%;
+        font-size: 30px;
+    }
 }

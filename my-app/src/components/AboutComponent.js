@@ -11,7 +11,7 @@ const AboutComponent = () => {
         <Container id="about">
             <h2 className="title">ABOUT</h2>
             <Row>
-                <Col>
+                <Col sm={6}>
                     <h3>History</h3>
                     <br/>
                     <p id="history-summary">
@@ -22,7 +22,7 @@ const AboutComponent = () => {
                         We look forward to meeting you!
                     </p>
                 </Col>
-                <Col id="about-img-container">
+                <Col id="about-img-container" sm={6}>
                     <Image id="about-img" src={history} alt="food" />
                 </Col>
             </Row>

@@ -24,7 +24,7 @@ const NavbarComponent = () => {
                         <Image id="logo" src={logo} alt="Logo" />
                     </Col>
                     <Col className="text-center">
-                        <button className="sec-color">ORDER ONLINE</button>
+                        <button className="sec-color"><a style={{color: 'black', textDecoration: 'none'}} href="https://www.clover.com/online-ordering/hitea-cafe-honolulu" target="_blank" rel="noopener noreferrer">ORDER ONLINE</a></button>
                     </Col>
                 </Row>
                 <Row className="w-100 d-flex justify-content-center align-items-center">
