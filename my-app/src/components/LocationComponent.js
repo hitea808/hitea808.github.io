@@ -1,25 +1,42 @@
 import React from "react";
 import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Image from 'react-bootstrap/Image';
+import Col from 'react-bootstrap/Col';
+import locationIMG from '../img/location-img.jpeg';
 import "../css/LocationComponent.css";
 
 const LocationComponent = () => {
     return (
         <div id="location-background">
-            <Container id="location-container">
-            <h2 className="title">LOCATION</h2>
-            <br />
-            <br />
-            <div id="location-section">
-                <h3>Address</h3>
-                <h4 id="location-box">The Lanai Food Court @ Ala Moana</h4>
-                <h5>1450 Ala Moana Blvd. Honolulu, HI 96814</h5>
-                <br />
-                <h3>Hours</h3>
-                <h5>Monday - Thursday: 10:30 am to 7:00 pm</h5>
-                <h5>Friday - Saturday: 10:30 am to 8:00 pm</h5>
-                <h5>Sunday: 10:30 am to 6:00 pm</h5>
-            </div>
-        </Container>
+            {/* <h2 className="title">LOCATION</h2> */}
+            <Row style={{ padding: '0px', margin: '0px' }}>
+                <Col>
+                    <div id="location-section">
+                        <br />
+                        <br />
+                        <h2 className="title">LOCATION</h2>
+                        <br />
+                        <br />
+                        <h3>Address</h3>
+                        <h3 id="location-box">The Lanai Food Court @ Ala Moana</h3>
+                        <h4>1450 Ala Moana Blvd. Honolulu, HI 96814</h4>
+                        <br />
+                        <h3>Hours</h3>
+                        <h4>Monday - Thursday: 10:30 am to 7:00 pm</h4>
+                        <h4>Friday - Saturday: 10:30 am to 8:00 pm</h4>
+                        <h4>Sunday: 10:30 am to 6:00 pm</h4>
+                        <br />
+                        <br />
+                        <br />
+                    </div>
+                </Col>
+                <Col id="location-image-container">
+                    <div>
+                        {/* <Image className="loc-img" src={locationIMG} alt="locationIMG" /> */}
+                    </div>
+                </Col>
+            </Row>
         </div>
     )
 }

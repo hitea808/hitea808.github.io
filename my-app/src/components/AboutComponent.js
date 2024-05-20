@@ -12,13 +12,13 @@ const AboutComponent = () => {
                 <Col>
                     <h3>History</h3>
                     <br/>
-                    <h5 id="history-summary">
+                    <h4 id="history-summary">
                         Since 2015, HiTEA Cafe has been delighting Honolulu with outstanding boba creations and authentic Asian fare. Our fresh smoothies, teas, and scratch-made meals keep customers coming back. Customize your dream drink and taste our passion for freshness.
-                    </h5>
+                    </h4>
                     <br/>
-                    <h5>
+                    <h4>
                         We look forward to meeting you!
-                    </h5>
+                    </h4>
                 </Col>
                 <Col></Col>
             </Row>
