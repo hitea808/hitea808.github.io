@@ -8,3 +8,12 @@
 #history-summary{
     line-height: 1.8em;
 }
+
+#about-img {
+    width: 75%;
+}
+
+#about-img-container {
+    display: flex;
+    justify-content: flex-end;
+}

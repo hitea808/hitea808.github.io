@@ -1,9 +1,6 @@
 import React from "react";
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Image from 'react-bootstrap/Image';
 import Col from 'react-bootstrap/Col';
-import locationIMG from '../img/location-img.jpeg';
 import "../css/LocationComponent.css";
 
 const LocationComponent = () => {

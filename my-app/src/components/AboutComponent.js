@@ -2,6 +2,8 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
+import history from '../img/history.jpeg';
 import "../css/AboutComponent.css";
 
 const AboutComponent = () => {
@@ -20,7 +22,9 @@ const AboutComponent = () => {
                         We look forward to meeting you!
                     </h4>
                 </Col>
-                <Col></Col>
+                <Col id="about-img-container">
+                    <Image id="about-img" src={history} alt="food" />
+                </Col>
             </Row>
         </Container>
     )
