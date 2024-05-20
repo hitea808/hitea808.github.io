@@ -1,4 +1,4 @@
-#banner-container {
+#banner {
     margin-top: 180px;
     display: flex;
     text-align: center;
@@ -16,7 +16,7 @@
     background-size: cover;
 }
 
-#banner-container h1 {
+#banner h1 {
     color: white;
     font-weight: bold;
     font-size: 60px;

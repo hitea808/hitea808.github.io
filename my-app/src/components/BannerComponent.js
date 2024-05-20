@@ -3,7 +3,7 @@ import "../css/BannerComponent.css";
 
 const BannerComponent = () => {
     return (
-        <div id="banner-container">
+        <div id="banner">
             <h1>Where Boba Dreams and Stir-Fry Cravings Come Together!</h1>
             <br />
             <br />

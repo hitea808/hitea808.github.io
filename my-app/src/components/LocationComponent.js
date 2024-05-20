@@ -5,7 +5,7 @@ import "../css/LocationComponent.css";
 
 const LocationComponent = () => {
     return (
-        <div id="location-background">
+        <div id="location">
             {/* <h2 className="title">LOCATION</h2> */}
             <Row style={{ padding: '0px', margin: '0px' }}>
                 <Col>
@@ -16,13 +16,13 @@ const LocationComponent = () => {
                         <br />
                         <br />
                         <h3>Address</h3>
-                        <h3 id="location-box">The Lanai Food Court @ Ala Moana</h3>
-                        <h4>1450 Ala Moana Blvd. Honolulu, HI 96814</h4>
+                        <p id="location-box">The Lanai Food Court @ Ala Moana</p>
+                        <p>1450 Ala Moana Blvd. Honolulu, HI 96814</p>
                         <br />
                         <h3>Hours</h3>
-                        <h4>Monday - Thursday: 10:30 am to 7:00 pm</h4>
-                        <h4>Friday - Saturday: 10:30 am to 8:00 pm</h4>
-                        <h4>Sunday: 10:30 am to 6:00 pm</h4>
+                        <p>Monday - Thursday: 10:30 am to 7:00 pm</p>
+                        <p>Friday - Saturday: 10:30 am to 8:00 pm</p>
+                        <p>Sunday: 10:30 am to 6:00 pm</p>
                         <br />
                         <br />
                         <br />
