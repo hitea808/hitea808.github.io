@@ -16,7 +16,7 @@ const NavbarComponent = () => {
     return (
         <Navbar id="navbar" fixed="top">
             <Col>
-                <Row className="w-100 justify-content-evenly align-items-center">
+                <Row id="navbar-mobile" className="w-100 justify-content-evenly align-items-center">
                     <Col className="text-center">
                         <a style={{color: 'black'}} href="https://www.instagram.com/hiteahawaii/" target="_blank" rel="noopener noreferrer"><Instagram size={30} /></a>
                     </Col>

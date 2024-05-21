@@ -11,3 +11,16 @@
     font-size: 20px;
     padding: 0px 20px 20px 20px;
 }
+
+@media (max-width: 800px) { 
+    #logo {
+        width: 150px;
+    }
+    #navbar-mobile {
+
+    }
+    #navbar .nav-link{
+        font-size: 15px;
+        padding: 20px 10px 10px 20px;
+    }
+}

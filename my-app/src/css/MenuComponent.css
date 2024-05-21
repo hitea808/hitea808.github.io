@@ -19,3 +19,9 @@
 .menu-model-img {
     width: 100%;
 }
+
+@media (max-width: 800px) { 
+    #menu .menu-img {
+        width: 300px;
+    }
+}
