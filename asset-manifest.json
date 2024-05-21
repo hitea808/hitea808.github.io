@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/HiTEA/static/css/main.0701f9a5.css",
+    "main.css": "/HiTEA/static/css/main.6003f12a.css",
     "main.js": "/HiTEA/static/js/main.caa678c8.js",
     "static/js/453.ed3810f9.chunk.js": "/HiTEA/static/js/453.ed3810f9.chunk.js",
     "static/media/Menu_3.jpg": "/HiTEA/static/media/Menu_3.e66644e7cd49563f9205.jpg",
@@ -13,12 +13,12 @@
     "static/media/banner.jpeg": "/HiTEA/static/media/banner.0e70a4f2e29abd549bfb.jpeg",
     "static/media/logo.svg": "/HiTEA/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/HiTEA/index.html",
-    "main.0701f9a5.css.map": "/HiTEA/static/css/main.0701f9a5.css.map",
+    "main.6003f12a.css.map": "/HiTEA/static/css/main.6003f12a.css.map",
     "main.caa678c8.js.map": "/HiTEA/static/js/main.caa678c8.js.map",
     "453.ed3810f9.chunk.js.map": "/HiTEA/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0701f9a5.css",
+    "static/css/main.6003f12a.css",
     "static/js/main.caa678c8.js"
   ]
 }
