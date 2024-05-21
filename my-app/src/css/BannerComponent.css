@@ -26,6 +26,10 @@
         min-height: 400px;
         max-height: 400px;
         padding: 100px;
+        background-attachment: none;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: auto;
     }
     #banner h1{
         width: 100%;

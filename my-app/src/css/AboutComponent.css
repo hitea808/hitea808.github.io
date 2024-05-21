@@ -17,3 +17,9 @@
     display: flex;
     justify-content: flex-end;
 }
+
+@media (max-width: 800px) { 
+    #about-img-container {
+        justify-content: center;
+    }
+}

@@ -26,6 +26,9 @@ const AboutComponent = () => {
                     <Image id="about-img" src={history} alt="food" />
                 </Col>
             </Row>
+            <Row>
+                
+            </Row>
         </Container>
     )
 }

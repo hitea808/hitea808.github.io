@@ -1,5 +1,5 @@
 #location {
-    background-color: #C9E1B4;
+    background-color: rgb(200, 224, 178);
     margin: 50px 0px;
 }
 
@@ -11,6 +11,10 @@
     border: 1px solid black;
     padding: 5px;
     width: 70%;
+}
+
+#location-box:hover {
+    background-color: rgba(179, 202, 158, 0.824);
 }
 
 #location-image-container {
