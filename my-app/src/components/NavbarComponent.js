@@ -8,7 +8,6 @@ import logo from '../img/logo.png';
 
 import {
     Instagram,
-    Envelope
 } from "react-bootstrap-icons";
 import "../css/NavbarComponent.css";
 
