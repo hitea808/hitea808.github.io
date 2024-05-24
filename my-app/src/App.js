@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <>
+    <div id="home">
       <div id="app">
         <NavbarComponent />
         <BannerComponent />
@@ -19,7 +19,7 @@ function App() {
         <AboutComponent />
         <FooterComponent />
       </div>
-    </>
+    </div>
   );
 }
 
