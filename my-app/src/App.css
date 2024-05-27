@@ -32,8 +32,31 @@ html {
   text-underline-offset: 0.6em;
 }
 
+.leaf {
+  position: absolute;
+  width: 125px; /* Adjust size as needed */
+  height: 125px; /* Adjust size as needed */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.leaf-top-right {
+  /* top: 0; */
+  right: 0;
+  background-image: url('img/leaf-right.png');
+}
+
+.leaf-bottom-left {
+  left: 0;
+  top: 130%;
+  background-image: url('img/leaf-left.png');
+}
+
 @media (max-width: 800px) { 
   .sec-color {
     font-size: 1.0rem;
+  }
+  .leaf {
+    display: none;
   }
 }

@@ -55,6 +55,8 @@ const MenuComponent = () => {
                     </Modal>
                 </Row>
             </div>
+            <div className="leaf leaf-top-right"></div>
+            <div className="leaf leaf-bottom-left"></div>
         </Container>
     )
 }
