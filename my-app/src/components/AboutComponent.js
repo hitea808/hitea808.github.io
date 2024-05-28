@@ -33,7 +33,9 @@ const AboutComponent = () => {
                     </p>
                 </Col>
                 <Col id="about-img-container" sm={6}>
+                    <div id="about-img-box">
                     <Image id="about-img" src={history} alt="food" />
+                    </div>
                 </Col>
             </Row>
             <br />
