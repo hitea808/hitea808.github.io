@@ -20,9 +20,8 @@ const LocationComponent = () => {
                         <p>1450 Ala Moana Blvd. Honolulu, HI 96814</p>
                         <br />
                         <h3>Hours</h3>
-                        <p>Monday - Thursday: 10:30 am to 7:00 pm</p>
-                        <p>Friday - Saturday: 10:30 am to 8:00 pm</p>
-                        <p>Sunday: 10:30 am to 6:00 pm</p>
+                        <p>Monday - Saturday: 10:30 am to 8:00 pm</p>
+                        <p>Sunday: 10:30 am to 7:00 pm</p>
                         <br />
                         <br />
                         <br />
