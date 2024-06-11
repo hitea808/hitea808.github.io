@@ -5,11 +5,45 @@
     align-items: center;
 }
 
+.menu-background {
+    position: relative;
+    min-width: 450px;
+    min-height: 250px;
+    margin: 0px 40px;
+    background-size: cover;
+    background-position: center; 
+    cursor: pointer;
+}
+
+#menu1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/Menu_1.jpg'); 
+}
+
+#menu2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/Menu_2.jpg');
+}
+#menu3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/Menu_3.jpg'); 
+}
+#menu4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/Menu_4.jpg'); 
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-weight: 400;
+    font-size: 30px; 
+    letter-spacing: 2px;
+  }
+
 #menu .menu-img {
     width: 450px;
     margin: 0px 30px;
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
 }
 
 #menu .menu-img:hover {
@@ -23,5 +57,9 @@
 @media (max-width: 800px) { 
     #menu .menu-img {
         width: 300px;
+    }
+
+    .menu-background{
+        margin-top: 20px !important;
     }
 }

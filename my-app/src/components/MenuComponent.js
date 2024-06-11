@@ -23,15 +23,22 @@ const MenuComponent = () => {
             <br />
             <br />
             <div id="menu-section">
-                <h3>Drinks</h3>
-                <Row>
-                    <Col onClick={() => setShowMenu1(true)}><Image className="menu-img" src={menu1} alt="menu1" /></Col>
+                <Row className="row-menu">
+                    <Col id="menu1" className="menu-background" onClick={() => setShowMenu1(true)}>
+                        <div className="overlay-text">
+                            Smoothies
+                        </div>
+                    </Col>
                     <Modal size="xl" centered aria-labelledby="contained-modal-title-vcenter" show={showMenu1} onHide={() => setShowMenu1(false)} animation={false}>
                         <Modal.Header closeButton>
                         </Modal.Header>
                         <Modal.Body><Image className="menu-model-img" src={menu1} alt="menu1" /></Modal.Body>
                     </Modal>
-                    <Col onClick={() => setShowMenu2(true)}><Image className="menu-img" src={menu2} alt="menu2" /></Col>
+                    <Col id="menu2" className="menu-background" onClick={() => setShowMenu2(true)}>
+                    <div className="overlay-text">
+                            Milk Tea & Fresh Tea
+                        </div>
+                    </Col>
                     <Modal size="xl" centered aria-labelledby="contained-modal-title-vcenter" show={showMenu2} onHide={() => setShowMenu2(false)} animation={false}>
                         <Modal.Header closeButton>
                         </Modal.Header>
@@ -40,15 +47,22 @@ const MenuComponent = () => {
                 </Row>
                 <br />
                 <br />
-                <h3>Plates</h3>
-                <Row>
-                    <Col onClick={() => setShowMenu3(true)}><Image className="menu-img" src={menu3} alt="menu3" /></Col>
+                <Row className="row-menu">
+                    <Col id="menu3" className="menu-background" onClick={() => setShowMenu3(true)}>
+                    <div className="overlay-text">
+                            StirFry Plates
+                        </div>
+                    </Col>
                     <Modal size="xl" centered aria-labelledby="contained-modal-title-vcenter" show={showMenu3} onHide={() => setShowMenu3(false)} animation={false}>
                         <Modal.Header closeButton>
                         </Modal.Header>
                         <Modal.Body><Image className="menu-model-img" src={menu3} alt="menu3" /></Modal.Body>
                     </Modal>
-                    <Col onClick={() => setShowMenu4(true)}><Image className="menu-img" src={menu4} alt="menu4" /></Col>
+                    <Col id="menu4" className="menu-background" onClick={() => setShowMenu4(true)}>
+                    <div className="overlay-text">
+                            Rice & Noodles
+                        </div>
+                    </Col>
                     <Modal size="xl" centered aria-labelledby="contained-modal-title-vcenter" show={showMenu4} onHide={() => setShowMenu4(false)} animation={false}>
                         <Modal.Header closeButton>
                         </Modal.Header>
