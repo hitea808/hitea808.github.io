@@ -13,6 +13,12 @@
     width: 100%;
 }
 
+#about-img-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 #about-img-box {
     width: 80%;
 }

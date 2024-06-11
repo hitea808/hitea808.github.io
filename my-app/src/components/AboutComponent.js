@@ -21,12 +21,14 @@ const AboutComponent = () => {
         <Container id="about">
             <h2 className="title">ABOUT</h2>
             <Row>
-                <Col sm={6}>
+                <Col sm={6} id="about-img-text">
+                    <div>
                     <h3>History</h3>
                     <br />
                     <p id="history-summary">
                         Since 2015, HiTEA Cafe has been delighting Honolulu with outstanding boba creations and authentic Asian fare. Our fresh smoothies, teas, and scratch-made meals keep customers coming back. Customize your dream drink and taste our passion for freshness.
                     </p>
+                    </div>
                     <br />
                     <p>
                         We look forward to meeting you!
@@ -39,9 +41,10 @@ const AboutComponent = () => {
                 </Col>
             </Row>
             <br />
-            <hr />
             <br />
             <h3>Gallery</h3>
+            <hr />
+            <br />
             <Row>
                 <Col className="gallery-container"><Image className="gallery-img" src={gallery1} alt="gallery-img" /></Col>
                 <Col className="gallery-container"><Image className="gallery-img" src={gallery2} alt="gallery-img" /></Col>

@@ -24,6 +24,10 @@
     background-size: cover;
 }
 
+.location-button {
+    font-size: 18px;
+}
+
 @media (max-width: 800px) { 
     #location-section {
         padding-left: 0px;
@@ -35,5 +39,9 @@
 
     #location {
         background: linear-gradient(rgba(179, 202, 158, 0.824), #C9E1B4), url(../img/location-img.jpeg) no-repeat center center / cover;
+    }
+
+    .location-button {
+        font-size: 15px;
     }
 }
