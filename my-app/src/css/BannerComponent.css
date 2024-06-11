@@ -4,8 +4,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 500px;    
-    max-height: 500px;
+    min-height: 700px;    
+    max-height: 700px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner.jpeg);
     padding: 200px;
 
@@ -18,7 +18,13 @@
 #banner h1 {
     color: white;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 70px;
+}
+
+#banner button {
+    padding: 20 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-size: 25px;
 }
 
 @media (max-width: 800px) { 
@@ -34,5 +40,8 @@
     #banner h1{
         width: 100%;
         font-size: 30px;
+    }
+    #banner button {
+        font-size: 20px;
     }
 }
