@@ -18,6 +18,7 @@ const MenuComponent = () => {
 
     return (
         <Container id="menu">
+            <br />
             <h2 className="title">MENU</h2>
             <br />
             <br />

@@ -28,8 +28,9 @@ html {
 
 .title { 
   text-align: center;
-  text-decoration: underline;
-  text-underline-offset: 0.6em;
+  color: #78B443;  
+  letter-spacing: 5px;
+  font-size: 40px;
 }
 
 .leaf {

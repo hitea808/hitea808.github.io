@@ -12,7 +12,7 @@ const LocationComponent = () => {
                     <div id="location-section">
                         <br />
                         <br />
-                        <h2 className="title">LOCATION</h2>
+                        <h2 className="title" style={{ color: "black" }}>LOCATION</h2>
                         <br />
                         <br />
                         <h3>Address</h3>
