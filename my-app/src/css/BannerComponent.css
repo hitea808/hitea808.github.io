@@ -17,8 +17,9 @@
 
 #banner h1 {
     color: white;
-    font-weight: bold;
-    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-size: 64px;
 }
 
 #banner button {
