@@ -30,9 +30,9 @@ const AboutComponent = () => {
                     </p>
                     </div>
                     <br />
-                    <p>
+                    <i style={{ fontSize: '20px' }}>
                         We look forward to meeting you!
-                    </p>
+                    </i>
                 </Col>
                 <Col id="about-img-container" sm={6}>
                     <div id="about-img-box">
