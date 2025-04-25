@@ -8,6 +8,7 @@ import menu1 from '../img/Menu_1.jpg';
 import menu2 from '../img/Menu_2.jpg';
 import menu3 from '../img/Menu_3.jpg';
 import menu4 from '../img/Menu_4.jpg';
+import menu5 from '../img/Menu_5.jpg';
 import Modal from 'react-bootstrap/Modal';
 
 const MenuComponent = () => {
@@ -56,7 +57,10 @@ const MenuComponent = () => {
                     <Modal size="xl" centered aria-labelledby="contained-modal-title-vcenter" show={showMenu3} onHide={() => setShowMenu3(false)} animation={false}>
                         <Modal.Header closeButton>
                         </Modal.Header>
-                        <Modal.Body><Image className="menu-model-img" src={menu3} alt="menu3" /></Modal.Body>
+                        <Modal.Body>
+                        <Image className="menu-model-img" src={menu3} alt="menu3" />
+                        <Image className="menu-model-img" src={menu5} alt="menu5" />
+                        </Modal.Body>
                     </Modal>
                     <Col id="menu4" className="menu-background" onClick={() => setShowMenu4(true)}>
                     <div className="overlay-text">
